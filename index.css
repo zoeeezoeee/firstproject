@@ -1,9 +1,14 @@
-#boxes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.doit{
+    color: blueviolet;
+    font-size: 80px ;
 }
 .box {
     width:200px ;
 height: 200px;
+}
+#boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

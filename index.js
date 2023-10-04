@@ -1,4 +1,4 @@
-const colors = ['red','blue','purpel','yellow','pink','green'];
+/*const colors = ['red','blue','purpel','yellow','pink','green'];
 
 const changecolor= function(e){
     console.log(e);
@@ -21,6 +21,17 @@ for(let color of colors){
 }  
 document.body.addEventListener('keypress' , function(e){
     console.log(e);
-})
+})*/
+const input = document.querySelector('#username');
 
+input.addEventListener('keydown', function(e){
+console.log('KEYDOWN');
+});
 
+input.addEventListener('keyup', function(e){
+    console.log('KEY UPPP');
+    });
+    
+    input.addEventListener('keypress', function(e){
+        console.log('KEY press');
+        }); 
